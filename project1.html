@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Form For Apply</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body  {
+            margin:5px;
+            padding:2px;
+            width: 500px;
+            display: flex;
+            min-height: 60vh;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid blue;
+        }
+
+        .container {
+            text-align: center;
+        }
+        i{
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="container">
+        <h2>Registration Form</h2>
+        <div class="form-container">
+            <form>
+                <div class="input-name">
+                    <i class="fa fa-user"></i>
+                    <input type="text" placeholder="first name" class="name">
+                    <span>
+                        <i class="fa fa-user"></i>
+                        <input type="text" placeholder="last name" class="name">
+                    </span><br><br>
+
+                    <div class="input-name">
+                        <i class="fa fa-envelope email"></i>
+                        <input type="email" placeholder="email" class="text-name">
+                    </div><br>
+
+                    <div class="input-name">
+                        <i class="fa fa-lock lock"></i>
+                        <input type="password" placeholder="password" class="text-name">
+                    </div><br>
+                    <div class="input-name">
+                        <i class="fa fa-lock lock"></i>
+                        <input type="password" placeholder="conform password" class="text-name">
+                    </div><br>
+
+                    <span class="input-name">
+                        <input type="radio" class="radio botton" name="r1">
+                        <label>male</label>
+                    </span>
+                    <span class="input-name">
+                        <input type="radio" class="radio botton" name="r1">
+                        <label>female</label>
+                    </span><br><br>
+
+                    <div class="input-name">
+                        <select class="country">
+                            <option>select a country</option>
+                            <option>india</option>
+                            <option>nepal</option>
+                            <option>japan</option>
+                            <option>bhutan</option>
+                        </select>
+                        <div class="arrow"></div>
+                    </div>
+                    <div class="input-name"><br>
+                        <input type="checkbox" class="check-button">
+                        <label>i accept the terms and conditions</label>
+                    </div><br>
+                    <div class="input-name">
+                        <button onclick=document.location="https://www.sarvgyan.com/articles/cucet-2023-application-form">Register</button>
+                
+                    </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
